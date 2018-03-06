@@ -37,7 +37,6 @@ Page({
     this.setData({
       'countryList':list
     })
-    console.log(this.data.countryList);
   },
 
   getUserInfo: function(e) {
