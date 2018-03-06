@@ -1,0 +1,15 @@
+<template name="countryList">
+    <block wx:for = "{{countryList}}" 
+              wx:for-item = "info" 
+              wx:key = "aaa"
+             > 
+      <view class='titView'>
+        <text class='item'>{{info.index}}</text>
+        <text class='item'>{{info.synthesize}}</text>
+        <text class='item'>{{info.military}}</text>
+        <text class='item'>{{info.economics}}</text>
+        <text class='item'>{{info.environment}}</text>
+      </view>
+    </block>
+  
+</template>

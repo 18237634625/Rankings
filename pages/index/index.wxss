@@ -1,0 +1,26 @@
+/**index.wxss**/
+@import "../template/countryList/countryList.wxss";
+.index_info {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center;  */
+}
+.index_title {
+  font-size: 25px;
+  text-align: center;
+}
+.index_titView{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  height: 40px;
+
+}
+.titView_item {
+  width: 20%;
+  height: 40px;
+  font-size: 18px;
+  color: #333;
+  text-align: center;
+}
+

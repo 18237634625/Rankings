@@ -1,0 +1,14 @@
+.titView{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  height: 40px;
+
+}
+.item {
+  width: 20%;
+  height: 40px;
+  font-size: 15px;
+  color: #999;
+  text-align: center;
+}
